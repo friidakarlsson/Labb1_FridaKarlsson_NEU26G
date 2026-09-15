@@ -3,7 +3,7 @@
 Inlämningsuppgift i kursen Programmering med C#
 
 ### Hitta tal i sträng med tecken
-Uppgiften går ut på att jag ska skapa en konsollapplikation som ber användaren mata in en text (string) i konsollen.
+Uppgiften går ut på att skapa en konsollapplikation som ber användaren mata in en text (string) i konsollen.
 Den inmatade strängen ska sedan sökas igenom efter alla delsträngar som är tal som börjar
 och slutar på samma siffra, utan att start/slutsiffran, eller något annat tecken än
 siffror förekommer där emellan.
