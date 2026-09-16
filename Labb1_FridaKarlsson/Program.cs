@@ -1,6 +1,4 @@
 ﻿
-
-
 Console.WriteLine("Mata in text: ");
 string input = Console.ReadLine();
 
@@ -21,7 +19,7 @@ for (int i = 0; i < input.Length; i++)
             {
                 break;
             }
-            else if (input[j]  == startSiffra)
+            if (input[j]  == startSiffra)
             {
                 int slutPosition = j;
 
@@ -32,7 +30,7 @@ for (int i = 0; i < input.Length; i++)
                 FarglaggningAvHelaRaden(delEtt, delTvaTalet, delTre);
 
                 totalSumma += Convert.ToInt64(delTvaTalet);
-
+               
                 break;
             }
         }
